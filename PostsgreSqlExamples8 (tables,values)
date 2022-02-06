@@ -1,0 +1,34 @@
+--  Updates
+
+--	update 1
+--update employee
+--set name = 'hamza'
+--where id = 1
+
+--	update 2
+--update employee
+--set birthday = '1990-01-01'
+--where id = 2
+
+--	update 3
+--update employee
+--set email = 'abc@email.com'
+--where id = 3
+
+
+-- Deletes
+
+--	delete 1
+--DELETE from employee
+--where name ilike 'h%'
+--returning *
+
+--	delete 2
+--DELETE from employee
+--where id = 48
+--returning *
+
+--	delete 3
+--DELETE from employee
+--where birthday < '1995-01-01'
+--returning *
