@@ -1,0 +1,25 @@
+-- Example 1
+--select country.country_id,city,country from city
+--inner join country on country.country_id = city.country_id;
+
+-- Example 2
+--select payment_id ,customer.first_name,customer.last_name from customer 
+--inner join payment  on customer.customer_id=payment.customer_id;
+
+-- Example 3
+--select rental_id  ,customer.first_name,customer.last_name from customer 
+--inner join rental  on customer.customer_id=rental.customer_id;
+
+--  Example 4
+--select city, country from city
+--left join country on country.country_id = city.country_id
+--order by country;
+
+--  Example 5
+--select first_name, last_name  from customer 
+--right join payment  on payment_id  = payment.payment_id
+
+
+--  Example 6
+--select first_name, last_name  from customer 
+--full join rental  on  rental.customer_id = customer.customer_id
