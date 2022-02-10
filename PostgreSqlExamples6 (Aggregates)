@@ -1,0 +1,14 @@
+-- Example 1
+--select avg (rental_rate) from film
+
+-- Example 2
+--select count(title) from film
+--where title like 'C%'
+
+-- Example 3
+--select max(length) from film
+--where rental_rate = 0.99
+
+-- Example 4
+--select count(distinct(replacement_cost)) from film
+--where length >150 
