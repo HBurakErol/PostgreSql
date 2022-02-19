@@ -1,5 +1,5 @@
-# PostgreSql
-PostgreSqlExamples
+# PostgreSqlExamples
+
 ---
 Basic examples for postgreSql course.
 ---
